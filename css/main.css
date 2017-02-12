@@ -1,0 +1,427 @@
+body {
+	margin: 0;
+	font-family: Georgia, serif;
+}
+
+nav {
+	background-color: #A4D0D9;
+	height: 450px; 
+}
+
+nav div.logo i {
+	color: #3A4849;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 35px 10px 0 190px;
+}
+
+nav div.logo h1 {
+	color: #3A4849;
+	font-size: 25px;
+	font-weight: bold;
+	display: inline;
+}
+
+nav div.navbar ul {
+	float: right;
+	color: #3A4849;
+	margin: 0 150px 0 0;
+	position: relative;
+	bottom: 15px;
+}
+
+nav div.navbar ul li{
+	display: inline;
+	text-decoration: none;
+	padding: 0 20px 0 10px;
+	font-weight: bold;
+	margin: 0 30px 0 0;
+}
+
+nav div.navbar ul li span {
+	background-color: #3A4849;
+	color: white;
+	border: solid 10px #3A4849;
+	border-radius: 10px;
+}
+
+nav div.home h2 {
+	color: white;
+	font-size: 40px;
+	float: left;
+	width: 400px;
+	text-align: center;
+	margin: 100px 100px 0 250px;
+}
+
+nav div.home img {
+	margin: 50px 0 0 50px;
+}
+
+nav div.threebuttons {
+	text-align: center;
+	margin: 50px 0 0 0;
+}
+
+nav div.threebuttons span button {
+	border: solid 2px white;
+	border-radius: 100%;
+	height: 20px;
+	width: 20px;
+	color: white;
+	background-color: white;
+}
+
+nav div.threebuttons button {
+	border: solid 2px white;
+	border-radius: 100%;
+	height: 20px;
+	width: 20px;
+	color: white;
+	background-color: #A4D0D9;
+}
+
+section.info {
+	height: 400px;
+}
+
+section.info div {
+	display: inline;
+	float: left;
+	text-align: center;
+	width: 400px;
+	margin: 70px 30px 70px 45px;
+
+}
+
+section.info div p {
+	font-size: 15px;
+	padding: 0 20px 0 20px;
+}
+
+section.info div span {
+	position: relative;
+	top: 21px;
+}
+
+section.recent {
+	background-color: #98D1A4;
+	text-align: center;
+	color: white;
+	height: 1000px;
+}
+
+section.recent h2 {
+	padding: 50px 0 0 0;
+	font-size: 40px;
+	margin-bottom: 0;
+}
+
+section.recent p {
+	font-size: 13px;
+}
+
+section.recent ul {
+	margin: 70px 0 5px 0;
+	padding: 15px;
+}
+
+section.recent ul li {
+	display: inline;
+	text-decoration: none;
+	margin: 25px;
+}
+
+section.recent ul li span {
+	border: solid 10px white;
+	background-color: white;
+	color: #98D1A4;
+	border-radius: 10px;
+}
+
+section.recent ul li id {
+	border: solid 2px white;
+	padding: 7px;
+	border-radius: 10px;
+}
+
+section.recent div.img {
+	width: 800px;
+	margin: 0 0 0 315px;
+}
+
+section.recent div.img img {
+	height: 200px;
+	padding: 30px;
+}
+
+section.recent button {
+	padding: 20px 22px 20px 22px;
+	font-size: 15px;
+	border-radius: 10px;
+	background-color: white;
+	border-style: none;
+	margin-top: 50px;
+}
+
+section.template {
+	background-color: #F1F1F1;
+	height: 760px;
+}
+
+section.template div img {
+	display: inline;
+	float: left;
+	padding: 60px 50px 0 250px;
+}
+
+section.template div h3 {
+	margin: 0;
+	padding: 90px 0 5px 0;
+	font-size: 22px;
+}
+
+section.template div button {
+	background-color: #98D1A4;
+	font-size: 15px;
+	border-radius: 10px;
+	border-style: none;
+	color: white;
+	padding: 20px 22px 20px 22px;
+	margin-top: 10px;
+}
+
+section.template hr {
+	width: 925px;
+	margin-top: 100px;
+}
+
+section.template div.template div {
+	display: inline;
+}
+
+section.template div.template div h3 { 
+	padding: 90px 0 0 255px;
+	font-size: 22px;
+	width: 610px;
+	margin-right: 0;
+}	
+
+section.template div.template div p {	
+	padding: 10px 0 0 253px;
+	width: 610px;
+	margin-right: 0;
+}
+
+section.template div.template div button {
+	float: left;
+	margin: 10px 0 0 253px;
+}
+
+section.template div.template div img {
+	float: right;
+	padding: 0;
+	position: relative;
+	bottom: 150px;
+	right: 250px;
+} 
+
+section.meetourteam {
+	background-color: #DEB5C5;
+	text-align: center;
+	height: 620px;
+}
+
+section.meetourteam h2 {
+	margin: 0;
+	color: white;
+	font-size: 30px;
+	padding: 60px 0 0 280px;
+}
+
+section.meetourteam h5 {
+	color: white;
+	width: 450px;
+	margin-left: 500px;
+	font-size: 15px;
+	font-weight: lighter;
+}
+
+section.meetourteam div {
+	display: inline;
+	float: left;
+	background-color: white;
+	margin: 50px 25px 0 25px;
+	height: 300px;
+	width: 223px;
+	position: relative;
+	left: 310px;
+}
+
+section.meetourteam div img {
+	height: 150px;
+}
+
+section.meetourteam div h3 {
+	margin: 10px;
+}
+
+section.meetourteam div h4 {
+	margin: 5px;
+	font-size: 13px;
+}
+
+section.meetourteam div p {
+	font-size: 11px;
+}
+
+section.meetourteam div i {
+	color: white;
+	border-radius: 100px;
+}
+
+section.recentposts {
+	background-color: #B5D5E0;
+	text-align: center;
+	height: 650px;
+}
+
+section.recentposts h2 {
+	color: white;
+	margin: 0;
+	padding: 60px 0 0 0;
+	font-size: 30px;
+}
+
+section.recentposts p {
+	color: white;
+	font-size: 15px;
+}
+
+section.recentposts div {
+	display: inline;
+	float: left;
+	background-color: white;
+	margin: 50px 25px 0 25px;
+	height: 260px;
+	width: 223px;
+	position: relative;
+	left: 310px;
+}
+
+section.recentposts div img {
+	height: 112px;
+}
+
+section.recentposts div h3 {
+	margin: 10px 0 0 0;
+	font-size: 17px;
+}
+
+section.recentposts div h4 {
+	font-size: 12px;
+	margin: 10px 0 0 0;
+	font-weight: lighter;
+	font-style: italic;
+}
+
+section.recentposts div p {
+	color: black;
+	font-size: 14px;
+	margin: 10px 0 0 0;
+}
+
+section.recentposts button {
+	position: relative;
+	top: 370px;
+	right: 410px;
+	background-color: white;
+	color: #B5D5E0;
+	border-style: none;
+	padding: 20px 22px 20px 22px;
+	border-radius: 10px;
+	font-size: 15px;
+}
+
+footer {
+	background-color: #3C3C3C;
+	height: 800px;
+}
+
+footer h2 {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	margin: 0;
+	padding: 60px 0 0 0;
+}
+
+footer h6 {
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	font-weight: lighter;
+	margin: 20px 0 0 0;
+}
+
+footer input {
+	border-style: none;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	margin: 20px 0 20px 570px; 
+	border-radius: 5px;
+	width: 300px;
+	position: relative;
+	top: 50px;
+}
+
+footer textarea {
+	border-style: none;
+	font-size: 15px;
+	border-radius: 5px;
+	width: 315px;
+	position: relative;
+	top: 50px;
+	left: 570px;
+	height: 150px;
+}
+
+footer button {
+	font-size: 15px;
+	border-style: none;
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+	position: relative;
+	top: 120px;
+	left: 340px;
+}
+
+footer hr {
+	border-color: black;
+	width: 900px;
+	margin-top: 200px;
+}
+
+footer i {
+	color: #3C3C3C;
+	border: solid 1px #4F4F4F;
+	background-color: #4F4F4F;
+	padding: 10px;
+	border-radius: 100px;
+	margin: 5px;
+	position: relative;
+	left: 265px;
+	top: 20px;
+}
+
+footer p {
+	float: right;
+	color: #4F4F4F;
+	margin: 40px 270px 0 0;
+}
+
+footer p span {
+	color: #807353;
+}
